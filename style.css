@@ -1,0 +1,59 @@
+body{
+    background-image: url("numeros-retro.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: yellow;
+    gap: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    background-color: rgb(2, 27, 65);
+    padding: 20px;
+    border-radius: 40px;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    background-color: rgb(2, 27, 65);
+    padding: 15px;
+    border-radius: 30px;;
+}
+
+.entrada{
+    width: 90px;
+    background-color: rgb(32, 36, 46);
+    padding: 20px;
+    border-radius: 25px;
+    font-size: x-large;
+    color: aliceblue;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.botonIntento{
+    width: 150px;
+    background-color: rgb(32, 36, 46);
+    padding: 20px;
+    border-radius: 25px;
+    font-size: x-large;
+    color: aliceblue;
+}
+
+.botonReinicio{
+    width: 150px;
+    background-color: rgb(32, 36, 46);
+    padding: 12px;
+    border-radius: 25px;
+    font-size: large;
+    color: aliceblue;
+}

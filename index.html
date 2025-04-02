@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Números</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Adivina el número</h1>
+    <h2>Introduce un número del 1 al 10. Tienes 5 oportunidades para adivinar</h2>
+    <input id="entrada" min="1" max="10" class="entrada" autofocus>
+    <div class="botones">
+        <button onclick="intentar();" class="botonIntento" id="intentar">Intentar</button>
+        <button onclick="reiniciar();" class="botonReinicio" id="reiniciar" disabled>Juego <br> Nuevo</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
